@@ -1,45 +1,47 @@
-body{
+body {
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
 }
-
-nav {
-    margin: 0;
-    padding: 2px;
-    background-color: green;
+.navbar {
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: white;
+    overflow: hidden;
 }
-
-.nav3 {
-    padding: 0;
+.navbar ul {
     list-style-type: none;
-    float: right;
-    display: block;
-    margin-right: 40px;
-}
-
-.nav2 {
-    padding: 0;
-    list-style-type: none;
-    float: right;
-    display: block;
-    margin-right: 40px;
-}
-
-.nav1 {
     margin: 0;
     padding: 0;
-    list-style-type: none;
-    float: right;
-    display: block;
-    margin-right: 50px;
 }
-
-li {
+.navbar li {
+    float: right;
+}
+.navbar li a {
+    display: block;
     color: black;
+    margin-top: 5px;
+    margin-right: 5px;
+    text-align: center;
+    padding: 14px 20px;
     text-decoration: none;
 }
 
-a {
-    color: black;
-    text-decoration: none;
+#logIn {
+    color: white;
+    background-color: #1e9c2e;
+    border-radius: 10%;
+}
+
+#logIn:hover {
+    background-color: #156920;
+    scale: 1.05;
+    cursor: pointer;
+}
+
+h1 {
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: 350%;
 }
