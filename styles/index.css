@@ -4,11 +4,31 @@ body {
     padding: 0;
 }
 .navbar {
+    margin-top: 20px;
     margin-left: 10px;
     margin-right: 10px;
     background-color: white;
     overflow: hidden;
 }
+
+#logo {
+    margin-left: 25px;
+}
+
+#logo img {
+    height: 65px;
+    float: left;
+
+}
+
+#logo p {
+    float: left;
+    margin-left: 5px;
+    font-size: 140%;
+    color: #156920;
+    font-weight: bold;
+}
+
 .navbar ul {
     list-style-type: none;
     margin: 0;
@@ -29,12 +49,12 @@ body {
 
 #logIn {
     color: white;
-    background-color: #1e9c2e;
+    background-color: #156920;
     border-radius: 10%;
 }
 
 #logIn:hover {
-    background-color: #156920;
+    background-color: #1e9c2e;
     scale: 1.05;
     cursor: pointer;
 }
@@ -44,4 +64,15 @@ h1 {
     margin-left: 20%;
     margin-right: 20%;
     font-size: 350%;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image img {
+    height: 25%;
+    width: 65%;
 }
