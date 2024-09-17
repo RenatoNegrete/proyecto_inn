@@ -2,12 +2,13 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #f7f7e6;
 }
 .navbar {
     margin-top: 20px;
     margin-left: 10px;
     margin-right: 10px;
-    background-color: white;
+    background-color: #f7f7e6;
     overflow: hidden;
 }
 
@@ -45,6 +46,7 @@ body {
     text-align: center;
     padding: 14px 20px;
     text-decoration: none;
+    font-size: 140%;
 }
 
 #logIn {
@@ -75,4 +77,11 @@ h1 {
 .image img {
     height: 25%;
     width: 65%;
+}
+
+#row {
+    margin-top: 40px;
+    background-color: #1e9c2e;
+    height: 200px;
+    width: 100%;
 }
